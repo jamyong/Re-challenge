@@ -2,11 +2,10 @@
 
 This directory contains a pytorch implementation of the CIFAR experiments of non-structured pruning introduced in this [paper](https://arxiv.org/abs/1506.02626) (NIPS 2015).
 
-## Dependencies
-progress v1.3, torch v0.3.1, torchvision v0.2.0
+
 
 ## Implementation
-We prune only the weights in the convolutional layer. We use the mask implementation, where during pruning, we set the weights that are pruned to be 0. During training, we make sure that we don't update those pruned parameters.
+We prune only the weights in the convolutional layer.Using the mask implementation, where during pruning, we set the weights that are pruned to be 0. During training, make sure that we don't update those pruned parameters.
 
 ## Baseline 
 
