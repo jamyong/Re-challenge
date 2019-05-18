@@ -11,5 +11,6 @@ Pruning is an important way to optimize neural networks. In recent years, there 
 ## Dependencies
 - python 3.6 or 3.7
 - pytorch 1.1 cuda 9.0 or 1.0
+- GPU GTX 1080Ti*4 or GTX 980
 
 
